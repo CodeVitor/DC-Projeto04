@@ -1,0 +1,498 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height:100%;
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited{
+	text-decoration: none;
+	color:#b4b4b4;
+}
+
+
+
+/* ----------- */
+
+/* HEADER MENU */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding:20px 2%;
+    align-items: center;
+}
+
+.logo-c img{
+    width:236px;
+    
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+    color:beige;
+}
+
+.nav__link{
+    padding-left:70px;
+    font-size: larger;
+    text-transform:uppercase;
+   
+}
+
+/* ---------------- */
+
+/* SEÇÂO MOSAICO */
+
+.mosaico{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mosaico-c{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.mosaico__img{
+    background-color: #ccc;
+    width:100%;
+    height:200px;
+    flex:1 1 15.5%;
+    border:solid white 5px;
+}
+
+/* ----------------------- */
+
+/* SEÇAO SERVICOS */
+
+.servicos{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicos-c{
+    display: flex;
+    max-width: 790px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: -50px;
+}
+
+.servico p {
+    font-size: large;
+    margin-top: 5px;
+    color: white;
+}
+
+.servico h2{
+    color: white;
+    text-transform: uppercase;
+}
+.servico:nth-child(1){
+    background-color: #566877;
+    color: white;
+    width: 30%;
+    padding:30px 2%;
+    text-align: center;
+    background-image: url(../imagens/icone_dente.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center calc(100% - 5px) ;    
+}
+
+.servico:nth-child(2){
+    background-color: #688095;
+    width: 60%;
+    padding:65px 2%;
+    text-align: center;    
+}
+
+.servico:nth-child(3){
+    background-color: #566877;
+    color: white;
+    width: 30%;
+    padding:30px 2%;
+    text-align: center; 
+    background-image: url(../imagens/icone_dente.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center  calc(100% - 5px);   
+}
+
+/* ----------------------- */
+
+/* SECAO QUEM SOU  */
+
+.quemsou{
+    max-width: 800px;
+    margin:30px auto;
+}
+
+.quemsou-c{
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    
+}
+
+.quemsou__texto{
+    flex:6 1 160px; 
+    padding-right: 20px;
+    text-align: justify;
+}
+.quemsou__texto h2{
+    font-size: 28px;
+    color:#698293;
+    margin-bottom: 15px;
+}
+
+.quemsou__texto p {
+    color:#688095
+}
+
+.quemsou__img {
+    flex:1 1 360px ;
+}
+
+/* ----------------------------- */
+
+/* SECAO VIDEOS */
+
+.videos{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.videos-c{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.video{
+    border: solid 0.5px #698293;
+    margin:10px
+}
+
+/* ----------------------------------------- */
+
+/* TRATAMENTOS */
+
+.tratamentos{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.tratamentos  h2{
+    text-align: center;
+    margin: 60px;
+    color: #b4b4b4;
+}
+
+.tratamentos-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tratamento{
+    max-width:350px;
+    margin:15px;
+}
+
+.tratamento h3{
+    font-size: 20px;
+    color: #566877;
+    margin: 5px;
+}
+
+.tratamento p{
+    color:#688095;
+    text-align: justify;
+}
+
+/* --------------------------- */
+
+/* SECAO DEPOIMENTOS */
+
+.depoimentos{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.depoimentos h2{
+    margin:60px;
+    color:#b4b4b4
+}
+
+.depoimentos-c{
+    margin-bottom: 10px;
+    color: #688095;
+}
+.depoimentos-c2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+    max-width: 250px;
+    color: #698293;
+    padding: 5px;
+}
+
+.slider-bullets span{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 8px;
+	background-color: rgb(200,200,200);
+}
+
+.slider-bullets span:first-child{
+	background-color: black;
+}
+
+/* ---------------------------------- */
+
+/* SECAO INSTAGRAM */
+
+.instagram{
+    background-color: #99A2B0;
+    padding: 30px 0;   
+}
+
+.instagram-c{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.instagram-c__picture{
+    display: flex;
+    margin-top:40px ;
+    margin-bottom: 40px;
+}
+.instagram__picture{
+    
+    padding-top: calc(100% / 9);
+    width: calc(100% / 9);
+    background-color: rgb(200,200,200);
+    border: white solid 5px;
+    
+}
+
+@media screen and (max-width:1024px){
+    .instagram__picture{
+        width: calc(100% / 6);
+        padding-top: calc(100% / 6);
+    }
+
+    .instagram-c__picture div:nth-of-type(1n+7){
+        display: none;
+    }
+}
+/* --------------------------------- */
+
+/* SECAO CONTATO */
+
+.contatos{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.contatos h2{
+    text-align:center ;
+    color: #99A2B0;
+    margin:40px
+}
+
+form{
+    max-width:500px;
+    margin: 0 auto;
+    color: #698293;
+
+}
+form input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+form input[type="text"]{
+    width: 500px;
+    display: block;
+    height: 40px;
+    padding: 4px;
+}
+
+form input[type="email"]{
+    width: 240px;
+    height: 40px;
+    padding: 4px;
+}
+form input[type="tel"]{
+    width: 250px;
+    height: 40px;
+    padding: 4px;
+}
+
+.form-et__pai{
+    display: flex;
+    justify-content: space-between;
+}
+
+form textarea{
+    margin-top: 5px;
+    width: 500px;
+    padding: 4px;
+}
+
+form button{
+    color: #ccc;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color:#566877 ;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+
+}
+
+/* ----------------------------------- */
+
+/* SECAO RODAPE */
+
+footer{
+    background-color:#698293;
+    width: 100%;  
+    padding: 40px; 
+    margin-top: 40px;
+}
+
+.footer-c{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-itens{
+    width: calc(100% / 3);
+    color: white;
+}
+
+.logodankifooter{
+    height: 50px;
+    background-color: #566877;
+}
+@media screen and (max-width:768px) {
+   
+    .servicos-c{
+        display: flex;
+        flex-direction: column;
+        padding: 20px; 
+    }
+    
+    .servico:nth-child(1){
+        width:70%;
+        padding: 50px 2%;        
+    }
+    
+    .servico:nth-child(2){
+        width: 85%;
+        padding:80px 2%;
+            
+    }
+    
+    .servico:nth-child(3){
+        width: 70%;
+        padding:50px 2%;    
+    }
+
+    /* ------------------------ */
+    .nav__list{
+        display: block;
+        
+    }
+    /* ------------------------------ */
+
+    .quemsou{
+        max-width: none;
+        display: block;
+    }
+    
+    .quemsou-c{
+        display: block;
+        max-width: none;
+        text-align: center;
+    }
+    
+    .quemsou__texto{
+        padding:10px 40px;
+        text-align: justify;
+    }
+    .quemsou__texto h2{
+        text-align: center;
+    }
+
+    /* -------------------------------------- */
+
+    .instagram__picture{
+        width: calc(100% / 3);
+        padding-top: calc(100% / 3);
+    }
+
+    .instagram-c__picture div:nth-of-type(1n+4){
+        display: none;
+    }
+
+    /* ----------------------------------------- */
+
+    form{
+        padding:15px;   
+    }
+   
+    form input[type="text"]{
+        width: 99.9%;
+        
+    }
+    
+    form input[type="email"]{
+        width: 99.9%;
+        
+    }
+
+    form input[type="tel"]{
+        width: 99.9%;
+       
+    }
+
+    form textarea{
+        
+        width: 99.9%;
+       
+    }
+    .form-et__pai{
+    display: block;
+        
+    }
+   
+}
